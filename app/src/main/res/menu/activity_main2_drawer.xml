@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_Perro"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Perros" />
+        <item
+            android:id="@+id/nav_Compartir"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Compartir" />
+        <item
+            android:id="@+id/nav_Mapa"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Mapa" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_Contactame"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contactame" />
+            <item
+                android:id="@+id/nav_Enviar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Enviar" />
+        </menu>
+    </item>
+
+</menu>

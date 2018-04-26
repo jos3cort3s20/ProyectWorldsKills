@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragmentos.Fragment_Registro">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tvtipoArtista"
+            android:layout_margin="20sp"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <RadioGroup
+            android:id="@+id/rgPrimario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp">
+            <RadioButton
+                android:id="@+id/rbEscritor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbescritor"
+                android:textSize="15sp"
+                />
+            <RadioButton
+                android:id="@+id/rbPinto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbpinto"
+                android:textSize="15sp"
+                />
+            <RadioButton
+                android:id="@+id/rbEscultor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rbescultor"
+                android:textSize="15sp"
+                />
+        </RadioGroup>
+
+
+        <EditText
+            android:id="@+id/etArtista"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etnombre_artista"
+            android:layout_marginHorizontal="10sp"
+            android:inputType="textCapWords"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:id="@+id/etBiblio"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:hint="@string/etbiblio_corta"
+            android:lines="5"
+            android:layout_marginHorizontal="10sp"
+            android:inputType="textMultiLine"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btnRegistro"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginVertical="15sp"
+            android:text="@string/btnregistro"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

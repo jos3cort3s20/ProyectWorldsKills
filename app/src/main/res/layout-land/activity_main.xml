@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:id="@+id/btnImEscritor"
+            android:layout_width="40sp"
+            android:layout_height="10sp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/Blue"
+            android:layout_marginVertical="10sp"
+            android:onClick="funcionButton"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/btnImPintor"
+            android:layout_width="40sp"
+            android:layout_height="10dp"
+            android:layout_marginVertical="10sp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="funcionButton"
+            android:background="@color/GreenYellow"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/btnImEscultor"
+            android:layout_width="40sp"
+            android:layout_height="10dp"
+            android:background="@color/Orange"
+            android:layout_gravity="center_horizontal"
+            android:onClick="funcionButton"
+            android:layout_marginVertical="10sp"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/btnImRegistro"
+            android:layout_width="40sp"
+            android:layout_height="10sp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="funcionButton"
+            android:layout_marginVertical="10sp"
+            android:background="@color/HotPink"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/btnImSalir"
+            android:layout_width="40sp"
+            android:layout_height="10sp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="funcionButton"
+            android:layout_marginVertical="10sp"
+            android:background="@color/Red"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        android:orientation="horizontal"
+        >
+
+        <FrameLayout
+            android:id="@+id/frameInter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></FrameLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
